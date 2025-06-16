@@ -1,0 +1,279 @@
+    body {
+        background:
+            linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.5)),
+            url('image/Citra.jpg');
+    }
+    header {
+        background:
+            linear-gradient(rgba(0, 0, 0, 1.0), aqua),
+            url('image/Citra.jpg');
+        padding: 20px 0px;
+        margin: ;
+      
+    }
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+        color: aqua;
+        text-shadow: 2px 2px 4px black(0, 0, 0, 1.0);
+    }
+    nav ul {
+        gap: 20px;
+        margin-top: 10px;
+        font-size: large;
+        display: flex;
+        list-style: none;
+        font-size:larger;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 80px;
+        color: black;
+        border-radius: 5px;
+        border: 30px;
+        transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+        background-color:black;
+        color: white;
+    }
+    main {
+          padding: 40px 20px;
+          max-width: 1000px;
+          margin: 0 auto;
+        }
+
+    section {
+      background-color: none;
+      padding: 30px;
+      margin-bottom: 50px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section:hover {
+      background: transparent;       
+      border: 2px solid aqua;        
+    }
+
+    section h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: aqua;
+    }
+
+    #Experience li {
+      color: aliceblue;
+      list-style-type: none;
+      text-align: justify;
+      padding: 20px;
+    }
+      .project-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      color: white;
+      text-align: center;
+      font-size: larger;
+      margin-bottom: 20px;
+      padding: 30px;
+    }
+
+    .project-item img {
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .project-description {
+      max-width: 400px;
+    }
+
+    .project-description b {
+      font-size: 18px;
+    }
+      section h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+        color: aqua;
+        padding-left: 40px;
+      }
+
+    section h4 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: aqua;
+      padding-left: 40px;
+    }
+
+  form label {
+    font-weight: bold;
+    color: white;
+  }
+
+  form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  form button {
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  form button:hover {
+    background-color: aqua;
+  }
+
+    .paragraph, .Myskill {
+      flex: 1;
+    }
+    .paragraph {
+      margin-top: 0;
+      font-size: 10px;
+      text-align: justify;
+      padding-right: 30px;
+      padding-left: 30px;
+      
+    }
+    .Myskill ul {
+      list-style: none;
+       padding: 0;
+       font-size: 15px;
+    }
+
+    .Myskill li {
+      margin-bottom: 15px;
+    }
+
+    .Myskill span {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .bar {
+      background-color: #ddd;
+      height: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      background-color: aqua;
+      width: 0;
+      transition: width 0.5s ease;
+      border-radius: 5px;
+    }
+
+    .profile-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    
+
+    .profile-container img {
+      width: 160px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      padding-top: 20px;
+    }
+
+    .profile-container p {
+      flex: 1;
+      font-size: 16px;
+      line-height: 1.8;
+      color: whitesmoke;
+    }
+
+     @media (max-width: 768px) {
+      .profile-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .paragraph, .Myskill {
+        flex: none;
+        width: 100%;
+      }
+    }
+    .footer {
+    height: 30px;
+    padding: 90px;
+    background-color: brown;
+    clear: both;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.icon a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icon a i {
+    font-size: 1.5em;
+    color:black;
+    opacity: 0.9;
+}
+.icon a:hover {
+    background-color: aqua;
+    transition: 0.5s;
+}
+.icon a i:hover {
+    color: white;
+    transition: 0.5s;
+}
+@media (max-width: 992px) {
+    .project-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-description {
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .paragraph, .Myskill {
+        flex: none;
+        width: 100%;
+    }
+}
